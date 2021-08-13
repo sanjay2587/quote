@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote generator</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body onload="startTime(); startDate()">
+    <header>
+      <h2 class="logo">Quote </h2>
+      <div class="toggle"></div>
+    </header>
+    <div class="container">
+      <div id="date"></div>
+      <div id="display"></div>
+      <div id="content">
+        <p id="quote">
+          "the people who are crazy enough to think they can change the world
+          are the ones who do." <br />- Steve Jobs
+        </p>
+      </div>
+    </div>
+    <div id="b-nav">
+      <ul>
+        <button id="gen" onclick="genQuote()">New Quote</button>
+      </ul>
+    </div>
+    <ul class="social">
+      <li>
+        <a href="https://facebook.com"><img src="https://i.ibb.co/x7P24fL/facebook.png" /></a>
+      </li>
+      <li>
+        <a href="https://twitter.com"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" /></a>
+      </li>
+      <li>
+        <a href="https://instagram.com"><img src="https://i.ibb.co/ySwtH4B/instagram.png" /></a>
+      </li>
+    </ul>
+    <script src="quote.js"></script>
+  </body>
+</html>
